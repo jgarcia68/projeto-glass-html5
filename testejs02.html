@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">   
+    <title>Teste JS 02</title>
+    <script>
+        // Funções JavaScript para acender, apagar e quebrar a lâmpada
+        function acende() {
+            document.getElementById("luz").src = "_imagens/lampada-acesa.jpg";
+        }
+        function apaga() {
+            document.getElementById("luz").src = "_imagens/lampada-apagada.jpg";
+        }
+          function quebra() {
+            document.getElementById("luz").src = "_imagens/lampada-quebrada.jpg";
+     }
+
+    </script>
+    
+    <head>
+        <title>Teste de Java Script</title>
+    </head>
+
+
+        <body>
+            <h1>Acenda a Lâmpada</h1>
+             <img src="_imagens/lampada-apagada.jpg" id="luz" onmousemove="acende()" onmouseout="apaga()" onclick="quebra()"/>
+        </body>
+   
+
+</html>
+
+
