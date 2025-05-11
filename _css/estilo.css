@@ -155,8 +155,7 @@ header#cabecalho-artigo h1 {
    color: #606060;
   
  }
- .direita
- table#tabelaespec td {
+ .direita  {
   text-align: right;
  }
 
